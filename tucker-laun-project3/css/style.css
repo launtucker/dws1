@@ -1,0 +1,97 @@
+    body {
+        font-family: trebuchet ms, verdana, sans-serif;
+        font-size: 0.750em;
+        line-height: 1.5em;
+        color: #333;
+        background:  #aec928; /* Old browsers */
+        background: -moz-linear-gradient(top,  #aec928 0%, #588e1b 50%, #116d3f 60%, #7db9e8 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#aec928), color-stop(50%,#588e1b), color-stop(60%,#116d3f), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #aec928 0%,#588e1b 50%,#116d3f 60%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #aec928 0%,#588e1b 50%,#116d3f 60%,#7db9e8 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #aec928 0%,#588e1b 50%,#116d3f 60%,#7db9e8 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #aec928 0%,#588e1b 50%,#116d3f 60%,#7db9e8 100%); /* W3C */
+
+    ;
+        margin:0 auto;
+        height: auto;
+        padding: 0;
+        width: 960px;
+        text-align: center;
+
+
+
+
+
+
+    }
+    div {
+        background:url("../images/cloud.png")no-repeat center rgba(86, 158, 189, 0.54);
+        margin:0 auto ;
+        height: auto;
+        padding: 0 0 0 0;
+        border-left: 2px dashed #fff;
+        border-right: 2px dashed #fff;
+        box-shadow: -2px 3px #666666;
+
+    }
+
+
+/*  Font for H1, H2, H3 */
+    @font-face {
+        font-family: 'Playfair Display SC';
+        font-style: normal;
+        font-weight: 900;
+        src: local('Playfair Display SC Black'), local('PlayfairDisplaySC-Black'), url(http://fonts.gstatic.com/s/playfairdisplaysc/v4/5ggqGkvWJU_TtW2W8cEubIF0bWMoF0Zd8wBz5O2oqXd_v5H-gcmDugi2HQeB0BPm.woff2) format('woff2');}
+
+    h1,h2,h3 {
+        font-family: 'Playfair Display SC', serif;
+        text-shadow: -1px 1px #666666;
+        padding: 2px;
+    }
+
+/* link actions */
+
+    a:link{
+       color: darkblue;
+        text-decoration: none;
+    }
+    a:visited {
+        color: black;
+    }
+    a:hover{
+        color: red;
+        text-decoration: underline;
+    }
+    a:active{
+        color: darkgreen;
+    }
+
+    /*List styles*/
+    li{
+        margin: 10px;
+    }
+    ol{
+        width: 10%;
+        list-style-type: decimal;
+        list-style-position: outside;
+        margin: auto;
+    }
+
+    ul{
+        width: 10%;
+        list-style-type: decimal;
+        list-style-position: outside;
+        margin: auto;
+    }
+
+    /*floats*/
+
+    #start, #middle, #end{
+        width: 25%;
+        float: left;
+        margin: 1%;
+        background: url("../images/bluecheck.gif") repeat;
+    }
+    #Equipment{
+        clear: left;
+    }
